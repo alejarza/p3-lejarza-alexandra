@@ -26,6 +26,8 @@ header {
 header nav li {
   display: inline-block;
   max-width: 200px;
+  vertical-align: middle;
+  padding: 40px 0;
 }
 
 header nav a {
@@ -34,6 +36,16 @@ header nav a {
   margin: 0 20px;
   font-size: 20px;
   text-align: center;
+}
+
+header nav a:hover{
+  background-color: #53546f;
+}
+
+header a img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 footer {
@@ -79,10 +91,11 @@ p {
 
 </style>
 
+
 <header>
   <nav>
     <ul>
-      <li><img src="images/logo.png" width="150" alt="logo"></li>
+      <li><a href="http://www.alexandralejarza.com"><img src="images/logo.png" alt="logo" width="150"></li>
       <li><a href="index.html">Home</a></li>
       <li><a href="experience.html">Experience</a></li>
       <li><a href="portfolio.html">Design Portfolio</a></li>
@@ -90,7 +103,8 @@ p {
     </ul>
   </nav>
 </header>
-
+<section class="left-bar">
+</section>
 <div class="container">
   <h1>Sorry something went wrong with your submission</h1>
   <p>Please try again</p>
