@@ -35,8 +35,7 @@ header nav a {
 }
 
 header nav a:hover{
-  border: 5px solid #53546f;
-  padding: 3px;
+  background-color: #53546f;
 }
 
 header a img {
@@ -141,4 +140,35 @@ p {
   left: 0;
   background-color: #d3949f;
   padding-top: 20px;
+}
+/*******************************************
+
+Home Page Styling
+
+********************************************/
+img {
+  display: block;
+  margin: 0px auto;
+}
+
+div section img {
+  margin-bottom: 30px;
+}
+.bottom-section {
+  margin: 50px 0;
+  padding-bottom: 20px;
+}
+
+img.round {
+  border-radius: 50%;
+  padding-top: 40px;
+}
+
+.alex {
+  filter: grayscale(0%);
+}
+
+.alex:hover {
+  filter:grayscale(100%);
+  transition: 2s;
 }
