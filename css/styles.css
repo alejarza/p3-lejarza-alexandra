@@ -69,7 +69,7 @@ footer nav a {
 
 main {
   background: white;
-  margin: 0, auto;
+  margin: 0 auto;
   padding: 4rem;
 }
 
@@ -155,8 +155,10 @@ div section img {
   margin-bottom: 30px;
 }
 
-section figcaption {
+section figure figcaption {
   font-family: 'Pacifico';
+  text-align: center;
+  color: #48546f;
 }
 
 .bottom-section {
@@ -295,3 +297,4 @@ select {
   to {
     transform: translateX(1800px);
   }
+}
