@@ -154,6 +154,11 @@ img {
 div section img {
   margin-bottom: 30px;
 }
+
+section figcaption {
+  font-family: 'Pacifico';
+}
+
 .bottom-section {
   margin: 50px 0;
   padding-bottom: 20px;
