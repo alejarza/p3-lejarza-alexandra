@@ -44,7 +44,55 @@
     <main>
       <section class="left-bar">
       </section>
-    </main>
+      <div class="container">
+          <h1>Talk to me!</h1>
+          <h2>Fill out the fields below to send me a message.</h2>
+      <div class="send">
+          <img class="message" src="images/message.png" width="75" alt="message" title="Message" />
+      </div>
+        </main>
+        <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="first-name input-section">
+            <label for="firstname" class="label_input_wrap">First Name:</label>
+            <input type="text" name="req_firstname" id="firstname" placeholder="ex. John">
+          </div>
+
+          <div class="last-name input section">
+            <label for="lastname" class="label_input_wrap">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="ex. Smith"/>
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input type="email" name="req_email" id="email" placeholder="jsmith@example.com"/>
+          </div>
+
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="555-555-555">
+          </div>
+
+          <div class="location input-section">
+            <label for="location" class="label_input_wrap">Where are you from:</label>
+            <input type="text" name="location" id="location" placeholder="ex. Miami, FL">
+          </div>
+
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Comments:</label>
+            <textarea name="comments" di="comments" cols="55" rows="5" placeholder="Your Comment Goes Here"></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Submit">
+          </div>
+
+          <div class="reset">
+            <input type="reset" value="Refresh"/>
+          </div>
+
+        </form>
+    </div>
+      <p class="gmail">You can also send me an email at <span style="color: #d3949f">alexandralejarza@gmail.com</span></p>
     <!-- Navigation Bar on bottom of page -->
     <footer>
       <nav>
