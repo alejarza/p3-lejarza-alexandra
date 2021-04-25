@@ -182,34 +182,19 @@ img.round {
 Experience Page Styling
 
 ********************************************/
-.float-left {
+main div {
+  min-width: 1200px;
+}
+
+div img {
   float: left;
   position: absolute;
-  left: 300px;
-}
-
-.float-right {
-  float: right;
-  position: absolute;
-  right: 300px;
-}
-
-.lds {
-  max-width: 600px;
-  padding-left: 20px;
-  padding-bottom: 50px;
-}
-
-.ap {
-  max-width: 600px;
+  left: 250px;
   padding-right: 20px;
-  padding-bottom: 50px;
 }
 
-.gs {
-  max-width: 600px;
-  padding-left: 20px;
-  padding-bottom: 50px;
+div p {
+  padding-bottom: 40px;
 }
 
 div ul li {
