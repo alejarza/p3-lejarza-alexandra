@@ -24,8 +24,12 @@
     <link rel="icon" type="image/ico" href="images/favicon.ico">
 
     <meta charset="utf-8">
+    <!-- Lightbox -->
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <title>Alexandra Lejarza</title>
   </head>
   <body>
@@ -44,7 +48,28 @@
     <main>
       <section class="left-bar">
       </section>
+      <section  class="pseudo">
+      <h1>Design Portfolio</h1>
+      <p>After spending over a decade working in higher education (and completing a doctorate degree in the field), I decided to try something creative and explore the world of design for the first time in my life. I am currently working on a graduate degree in Web Design through the University of Florida.</p>
+      <p>The design classes have concentrated on Adobe Creative Suite, specifically InDesign, Illustrator, and Photoshop. I also learned theory on user experience. I took a critical look at existing sites and products and made recommendations for better design and usability. Below are some works I have created as a student in the program. I hope to keep practicing my skills and building my portfolio as I continue to learn.</p>
+      </section>
     </main>
+    <div class="container">
+      <section class="gallery">
+        <a href="images/eblast.jpg" data-lightbox="image-1" data-title="Email blast"><img src="images/eblast.jpg" alt="=Email blast" width="500"/></a>
+        <a href="images/bookcover.jpg" data-lightbox="image-1" data-title="Charlie and the Chocolate Factory ebook cover reimagined"><img src="images/bookcover.jpg" alt="Charlie and the Chocolate Factory bookcover" width="500"/></a>
+        <a href="images/travelad.jpg" data-lightbox="image-1" data-title="Travel Ad"><img src="images/travelad.jpg" alt="Travel Vida Instagram ad" width="500"/></a>
+        <a href="images/Artboard1-100.jpg" data-lightbox="image-1" data-title="Logo Concept 1"><img src="images/Artboard1-100.jpg" alt="Logo Concept 1" width="500"/></a>
+        <a href="images/Artboard2-100.jpg" data-lightbox="image-1" data-title="Logo Concept 2"><img src="images/Artboard2-100.jpg" alt="Logo Concept 2" width="500"/></a>
+        <a href="images/Artboard3-100.jpg" data-lightbox="image-1" data-title="Logo Concept 3"><img src="images/Artboard3-100.jpg" alt="Logo Concept 3" width="500"/></a>
+        <a href="images/UXmockup.jpg" data-lightbox="image-1" data-title="UX Mockup"><img src="images/UXmockup.jpg" alt="UX Theory mockup" width="500"/></a>
+        <a href="images/Persona1.jpg" data-lightbox="image-1" data-title="Persona 1"><img src="images/Persona1.jpg" alt="Persona 1" width="500"/></a>
+        <a href="images/Persona2.jpg" data-lightbox="image-1" data-title="Persona 2"><img src="images/Persona2.jpg" alt="Persona 2" width="500"/></a>
+        <a href="images/Letterhead-01.jpg" data-lightbox="image-1" data-title="Logo Letterhead"><img src="images/Letterhead-01.jpg" alt="Logo Concept 1" width="500"/></a>
+        <a href="images/Cards.jpg" data-lightbox="image-1" data-title="Logo Business Card"><img src="images/Cards.jpg" alt="Logo Business Card" width="500"/></a>
+        <a href="images/sitemockup.jpg" data-lightbox="image-1" data-title="Desktop Site Mockup"><img src="images/sitemockup.jpg" alt="Desktop Site Mockup" width="500"/></a>
+      </section>
+    </div>
     <!-- Navigation Bar on bottom of page -->
     <footer>
       <nav>
@@ -56,5 +81,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="lightbox/src/js/lightbox.js"></script>
   </body>
 </html>
